@@ -1,18 +1,17 @@
-$ echo "# Practicing Git" > README.md
-$ git init
-Initialized empty Git repository in /private/tmp/practice-git/.git/
+$ git add index.html
 
-$ git add README.md
+$ git commit -m "add index"
+[master (root-commit) 80450b2] add index
+ 1 file changed, 10 insertions(+)
+ create mode 100644 index.html
+ $ git remote add origin https://github.com/qazse45678/marylin.github.io.git
 
-$ git commit -m "first commit"
-[master (root-commit) adc1a5a] first commit
- 1 file changed, 1 insertion(+)
- create mode 100644 README.md
- $ git remote add origin git@github.com:kaochenlong/practice-git.git
- $ git push -u origin master
+$ git push -u origin master
 Counting objects: 3, done.
-Writing objects: 100% (3/3), 228 bytes | 228.00 KiB/s, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 327 bytes | 327.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
-To github.com:kaochenlong/practice-git.git
+To https://github.com/qazse45678/marylin.github.io.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
